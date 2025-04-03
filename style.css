@@ -210,16 +210,7 @@ body{
     /* position: relative; */
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 
 /* Initially hide the text */
 /* RESPONSIVE DESIGN */
@@ -229,7 +220,7 @@ body{
         text-align: center;
     }
     .home-content {
-        max-width: 100%;
+        max-width: fill;
     }
     .navbar {
         display: flex;
@@ -244,6 +235,7 @@ body{
     }
     .home{
         max-width:fill;
+        background-color:#081b29;
     }
     .navbar a {
         font-size: 16px;
@@ -277,6 +269,7 @@ body{
     }
     .home{
         max-width:fill;
+        background-color:#081b29;
     }
     .home h1 {
         font-size: 32px;
@@ -436,17 +429,7 @@ ul li:hover .stars {
 } */
 
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container1 {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .Technical, .Professional {
-        width: 90%;
-    }
-}
 
 /* Initially hide the skills section */
 /* .skills {
