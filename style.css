@@ -243,7 +243,7 @@ body{
         padding: 15px 5%;
     }
     .home{
-        max-width:100%;
+        max-width:fill;
     }
     .navbar a {
         font-size: 16px;
@@ -276,7 +276,7 @@ body{
         flex-direction: column;
     }
     .home{
-        max-width:100%;
+        max-width:fill;
     }
     .home h1 {
         font-size: 32px;
@@ -292,7 +292,7 @@ body{
         padding: 30px 5%;
     }
     .project-box {
-        width: 100%;
+        width: fill;
     }
 }
 
