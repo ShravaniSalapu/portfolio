@@ -242,6 +242,9 @@ body{
     .header {
         padding: 15px 5%;
     }
+    .home{
+        max-width:100%;
+    }
     .navbar a {
         font-size: 16px;
         margin-left: 15px;
@@ -271,6 +274,9 @@ body{
     }
     .navbar {
         flex-direction: column;
+    }
+    .home{
+        max-width:100%;
     }
     .home h1 {
         font-size: 32px;
